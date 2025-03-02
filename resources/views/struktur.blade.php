@@ -35,10 +35,21 @@
                         <img src={report} />
                     </div> -->
                     <div class='listiconTopbar'>
-                        <img src="{{ asset('images/report.svg') }}"/>
-                        <img src="{{ asset('images/report.svg') }}"/>
-                        <img src="{{ asset('images/report.svg') }}"/>
-                        <img src="{{ asset('images/report.svg') }}"/>
+                        <a href="https://instagram.com/faravra" target="_blank">
+                        <img src="{{ asset('images/waputih.svg') }}"/>
+                        </a>
+                        <a href="https://facebook.com/faravra" target="_blank">
+                        <img src="{{ asset('images/facebookputih.svg') }}"/>
+                        </a>
+                        <a href="https://tiktok.com/faravra" target="_blank">
+                        <img src="{{ asset('images/tiktokputih.svg') }}"/>
+                        </a>
+                        <a href="https://instagram.com/faravra" target="_blank">
+                        <img src="{{ asset('images/igputih.svg') }}"/>
+                        </a>
+                        <a href="https://youtube.com/faravra" target="_blank">
+                        <img src="{{ asset('images/youtubeputih.svg') }}"/>
+                        </a>
                     </div>
                 </section>
             </header>

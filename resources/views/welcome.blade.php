@@ -55,29 +55,29 @@
             </section>
         </header>
 
-        @if (session('success'))
-            <p style="color: green;">{{ session('success') }}</p>
-        @endif
+            <!-- @if (session('success'))
+                <p style="color: green;">{{ session('success') }}</p>
+            @endif
 
-        <div style="margin: 20px;">
-            @foreach ($content as $c)
-                {{ $c->content1 }} <br>
-                {{ $c->content2 }}<br>
-                {{ $c->content3 }}<br>
-                <a href="{{ route('content.edit', $c->id) }}" class="btnredpanjang">Edit {{ $c->id }}</a>
-            @endforeach
+            <div style="margin: 20px;">
+                @foreach ($content as $c)
+                    {{ $c->content1 }} <br>
+                    {{ $c->content2 }}<br>
+                    {{ $c->content3 }}<br>
+                    <a href="{{ route('content.edit', $c->id) }}" class="btnredpanjang">Edit {{ $c->id }}</a>
+                @endforeach
 
-        </div>
+            </div> -->
 
 
 
         <section class="konten1">
             <span class="transparent">
-                <img src="{{ asset('images/bgUtama.jpg') }}" class="imgKonten1" />
+                <img src="{{ asset('images/cover.jpg') }}" class="imgKonten1" />
             </span>
 
             <div class="listKonten1">
-
+                <p class="p1Konten1">LPK Yawata Sragen</p>
                 <p class="p2Konten1">Siap Berkarir di Jepang!</p>
                 <button class="btnredpanjang">DAFTAR SEKARANG</button>
             </div>
@@ -95,16 +95,16 @@
                 </div>
             </section> -->
 
-        <div class='garisHorizontal'></div>
+        <!-- <div class='garisHorizontal'></div> -->
 
-        <section class='visimisi'>
+        <section class='visimisi' style="margin-top: 32px">
             <div class='listJudulVisimisi'>
                 <p class='p1Visimisi'>Visi & Misi</p>
                 <div class='garisHorizontalKecil'></div>
             </div>
 
             <div class='listKontenVisimisi'>
-                <img src="{{ asset('images/pic1.webp') }}" class='gambarsementaraVisimisi'></img>
+                <img src="{{ asset('images/j2.png') }}" class='gambarsementaraVisimisi'></img>
                 <div class='containerVisimisi'>
                     <div class='cardVisimisi'>
                         <p class='judulCardVisimisi'>Visi</p>
@@ -138,8 +138,8 @@
             <p class='p1Galeri'>Keberangkatan dan Kelulusan</p>
 
             <div class='containerGaleri'>
-                <img class='sampleGaleri' src="{{ asset('images/andi.webp') }}" />
-                <img class='sampleGaleri' src="{{ asset('images/fian.webp') }}" />
+                <img class='sampleGaleri' src="{{ asset('images/lulus1.jpg') }}" />
+                <img class='sampleGaleri' src="{{ asset('images/lulus2.jpg') }}" />
             </div>
 
             <div class='garisHorizontalKecil'></div>
@@ -147,8 +147,8 @@
             <p class='p1Galeri'>Foto Kegiatan</p>
 
             <div class='containerGaleri'>
-                <img class='sampleGaleri' src="{{ asset('images/bersama1.webp') }}" />
-                <img class='sampleGaleri' src="{{ asset('images/bersama2.webp') }}" />
+                <img class='sampleGaleri' src="{{ asset('images/kegiatan1.jpg') }}" />
+                <img class='sampleGaleri' src="{{ asset('images/kegiatan2.jpg') }}" />
             </div>
         </section>
 
@@ -243,7 +243,7 @@
 
         <div style="width: 100%">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9580.797657654426!2d106.82686244598949!3d-6.176687062652464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9bcc8!2sMonumen%20Nasional!5e0!3m2!1sid!2sid!4v1737467393618!5m2!1sid!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.611342731654!2d110.83337662477263!3d-7.388928140446078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a0f88402fbc8f%3A0x377793f9d9b56134!2sLPK%20Yawata%20Gemolong%20Sragen!5e0!3m2!1sid!2sid!4v1740921496292!5m2!1sid!2sid"
                 allowfullscreen="" loading="lazy"
                 style="border: none; width:100%; height:400px; "referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>

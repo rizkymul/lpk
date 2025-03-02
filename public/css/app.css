@@ -2,6 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+ol {
+  list-style: none; /* Hapus angka default */
+  counter-reset: list-counter;
+}
+ol li {
+  counter-increment: list-counter;
+  position: relative;
+  padding-left: 32px; /* Beri jarak agar ikon tidak bertumpuk */
+}
+.centang li::before {
+  content: "✔"; /* Simbol centang */ 
+  position: absolute;
+  left: 0;
+  /* color: green; */
+  font-weight: bold;
+}
+.titik li::before {
+  content: "•"; /* Simbol centang */
+  position: absolute;
+  left: 0;
+  color: black;
+  font-weight: 900;
+  margin-left: 4px;
+}
+.bintang li::before {
+  content: "✶"; /* Simbol centang */
+  position: absolute;
+  left: 0;
+  color: black;
+  font-weight: 900;
+  margin-left: 4px;
+}
+
 .persyaratan{
   margin-bottom: 80px;
   margin-top: 64px;
@@ -76,7 +109,7 @@
 .transparent{
   display: flex;
   width: -webkit-fill-available;
-  background-color: #202020;
+  background-color: #202020e3;
 }
 
 .listKonten1{
@@ -84,14 +117,21 @@
   flex-direction: column;
   align-items: center;
   position: absolute;
-  gap: 24px
+  gap: 24px;
+
+  background-color: rgba(33, 33, 33, 0.757);
+  border-radius: 12px;
+  padding: 24px 56px;
 }
 
 .p1Konten1{
-  font-size: 38px;
+  font-size: 48px;
   font-weight: 800;
   color: white;
   margin: 0px;
+  /* background-color: rgba(33, 33, 33, 0.757);
+  border-radius: 12px;
+  padding: 0px 48px; */
 }
 
 .p2Konten1{
@@ -243,6 +283,7 @@
   width: 350px;
   height: 350px;
   background-color: rgb(46, 226, 43);
+  object-fit: cover;
 }
 
 .listProYD{
@@ -426,7 +467,7 @@ footer{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px
+  gap: 24px;
 }
 .topPers{
   display: flex;
@@ -548,6 +589,20 @@ footer{
 .imgPersyaratan{
   width: 350px;
   height: 350px;
+  object-fit: cover;
+}
+
+.fotoproduk{
+  width: 50%;
+}
+
+.deskripsiProduk{
+  text-align: justify;
+  width: 50%;
+}
+.titleProduk{
+  font-size: 32px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 800px) {
