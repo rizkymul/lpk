@@ -1,0 +1,2 @@
+JIKA ALL ( $all = ContentModel::all() ) = {{$nama[0]->content1}}
+JIKA Content1 ( $content1 = ContentModel::select('content1')->first(); ) = {{$nama->content1}}

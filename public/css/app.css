@@ -1,0 +1,661 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.persyaratan{
+  margin-bottom: 80px;
+  margin-top: 64px;
+}
+
+.topbar{
+  background-color: #1D1E1E;
+  display: flex;
+  padding: 38px 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoTopbar{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.p1Topbar{
+  font-size: 38px;
+  font-weight: 800;
+  color: white;
+  margin: 0px;
+}
+
+.p2Topbar{
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  margin: 0px;
+}
+
+.menuTopbar{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px
+}
+
+.listmenuTopbar{
+  display: flex;
+  gap: 24px;
+}
+
+.listmenuTopbar a{
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.listiconTopbar{
+  display: flex;
+  gap: 24px
+}
+
+.konten1{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgKonten1{
+  width: -webkit-fill-available;
+  opacity: 0.55;
+}
+
+.transparent{
+  display: flex;
+  width: -webkit-fill-available;
+  background-color: #202020;
+}
+
+.listKonten1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  gap: 24px
+}
+
+.p1Konten1{
+  font-size: 38px;
+  font-weight: 800;
+  color: white;
+  margin: 0px;
+}
+
+.p2Konten1{
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  margin: 0px;
+}
+
+.btnredpanjang{
+  background-color: #c8133e;
+  color: white;
+  border: none;
+  padding: 12px 80px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 1000px;
+}
+
+.pencarian{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  /* width: -webkit-fill-available; */
+}
+
+.formPencarian{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  gap: 12px
+}
+
+.labelPencarian{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.listPencarian{
+  display: flex;
+  gap: 24px
+}
+
+.inputPencarian{
+  flex: 1;
+  border-radius: 4px;
+  padding: 0px 12px;
+  font-size: 18px;
+  border: 2px solid grey;
+}
+
+.btnPencarian{
+  background-color: #c8133e;
+  border: none;
+  padding: 12px 12px;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.garisHorizontal{
+  margin: 32px 0px;
+  width: 600px;
+  height: 2px;
+  background-color: rgb(196, 196, 196);
+  justify-self: center;
+}
+
+.garisHorizontalKecil{
+  margin: 32px 0px;
+  width: 150px;
+  height: 2px;
+  background-color: rgb(196, 196, 196);
+  justify-self: center;
+}
+
+.listKontenVisimisi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 4%;
+}
+
+.listJudulVisimisi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p1Visimisi{
+  font-size: 38px;
+  font-weight: 700;
+  margin: 0px;
+  text-align: center;
+}
+
+.gambarsementaraVisimisi{
+  width: 350px;
+  height: 350px;
+}
+
+.containerVisimisi{
+  display: flex;
+  gap: 24px
+}
+
+.cardVisimisi{
+  flex:1;
+}
+
+.judulCardVisimisi{
+  font-size: 32px;
+  font-weight: 700;
+  color:#c8133e;
+  text-align: center;
+}
+
+.textCardVisimisi{
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.listMisi li{
+  font-size:18px ;
+  line-height: 24px;
+  text-align: justify;
+  margin-bottom: 4px;
+}
+
+.p1Galeri{
+  font-size: 32px;
+  font-weight: 700;
+  color: #c8133e;
+  text-align: center;
+  margin: 0px;
+}
+
+.containerGaleri{
+  margin: 40px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 24px
+
+}
+
+.sampleGaleri{
+  width: 350px;
+  height: 350px;
+  background-color: rgb(46, 226, 43);
+}
+
+.listProYD{
+  display: flex;
+  gap: 32px;
+  margin-bottom: 40px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.cardProYD{
+  display: flex;
+  gap: 32px;
+  flex: 1;
+}
+
+.garisVred{
+  width: 6px;
+  height: auto;
+  background-color:#c8133e;
+}
+
+.contentProYD{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+}
+
+.contentProYD p{
+  margin: 0px
+}
+
+.p1ProYD{
+  font-size: 32px;
+  font-weight: 700;
+  color: #c8133e;
+}
+
+.p2ProYD{
+  font-size: 20px;
+  text-align: justify;
+  line-height: 28px;
+}
+
+.selengkapnya{
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  color:#c8133e;
+}
+
+.listProses{
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.adapterProses{
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.p1Proses{
+  font-size: 24px;
+  font-weight: 600;
+  color:#c8133e;
+}
+
+.ketengahdong{
+  display: flex;
+  justify-content: center;
+}
+
+.listKata{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #c8133e;
+  gap: 40px;
+  padding-bottom: 80px
+}
+
+.listKata p{
+  margin: 0px
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  padding: 40px 80px;
+  background: linear-gradient(135deg, #820303, #000000)
+}
+
+.cardFot{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;  
+}
+
+.p1Fot{
+  font-size: 32px;
+  font-weight: 700; 
+  color: #c8133e;
+}
+
+.p2Fot{
+  font-size: 28px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+.btnwa{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 32px;
+  border: none;
+  background-color: #25D366;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border-radius: 12px;
+}
+
+.post{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 64px 0px;
+  gap: 40px;
+}
+
+.p1Post{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px 5%;
+}
+
+.p2Post{
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0px 5%;
+  text-align: center;
+}
+
+.btndaftardisini{
+  border: none;
+  color: white;
+  background-color: #c8133e;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.listAuthor{
+  display: flex;
+  gap: 32px
+}
+
+.adapterAuthor{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.titlePersyaratan{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.cardPersyaratan{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px
+}
+.topPers{
+  display: flex;
+  gap: 40px;
+}
+.p1Pers{
+  font-size: 24px;
+  font-weight: 600;
+}
+.p2Pers{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.kontak{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.hubungikami{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.hubungikamiKet{
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px 4%
+}
+
+.containerKontak{
+  display: flex;
+  gap: 140px;
+}
+
+.cK1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 24px */
+}
+
+.labelNama{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 12px 0px;
+}
+
+.labelNama label{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.labelNama span{
+  font-size: 16px;
+  font-weight: 600;
+  color: #8c8f94;
+}
+
+.inputNama{
+  padding: 10px 12px;
+  width: -webkit-fill-available;
+  font-size: 16px;
+  font-weight: 300;
+  border: 1px solid #8c8f94;
+  border-radius: 6px;
+}
+
+.strukturLead{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.p1Struktur{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.p2Struktur{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.listStruktur{
+  display: flex;
+  flex-direction: column;
+  gap: 32px
+}
+
+.appearMobile{
+  display: none
+}
+
+.menu{
+  gap: 12px;
+  cursor: pointer;
+}
+.menu p{
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+.map{
+  width: 800px;
+  height: 600px;
+  border: none;
+}
+
+.cardStruktur{
+  
+  display: flex;
+  gap: 48px;
+}
+
+.imgPersyaratan{
+  width: 350px;
+  height: 350px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .cardStruktur{
+    flex-direction: column;
+    gap: 12px
+  }
+  .p1Topbar{
+    font-size: 28px;
+  }
+  .p2Topbar{
+    font-size: 16px;
+  }
+  .p1Konten1 {
+    font-size: 28px;
+  }
+  .btnredpanjang {
+    padding: 12px 36px;
+    font-size: 18px;
+  }
+  .containerVisimisi{
+    flex-direction: column;
+    gap: 0px
+  }
+  .containerGaleri{
+    flex-direction: column;
+    align-items: center;
+  }
+  .listProYD{
+    flex-direction: column;
+  }
+  .cardProYD{
+    gap: 12px;
+  }
+  .labelPencarian{
+    margin: 0px 4%;
+  }
+  .listPencarian{
+    width: -webkit-fill-available;
+    margin: 0px 4%;
+  }
+  .listProses{
+    flex-direction: column;
+    align-items: center;
+  }
+  .map{
+    width: 300px;
+    height: 300px;
+    border: none;
+  }
+  .listKata{
+    font-size: 28px;
+    text-align: center;
+    margin: 0px 5%;
+  }
+  .topbar{
+    padding: 24px 5%
+  }
+  .judulCardVisimisi{
+    margin: 12px 0px
+  }
+  .textCardVisimisi{
+    margin-top: 12px;
+    margin-bottom: 0px
+  }
+  footer{
+    flex-direction: column;
+    padding: 12px 40px
+  }
+  .garisHorizontal{
+    width: 90%;
+  }
+  .p1Fot{
+    margin-bottom: 0px
+  }
+  .p1Post{
+    font-size: 28px;
+  }
+  .listAuthor{
+    flex-direction: column;
+    gap: 8px
+  }
+  .topPers{
+    flex-direction: column;
+    align-items: center;
+  }
+  .containerKontak{
+    flex-direction: column;
+    gap: 24px
+  }
+  .hubungikami{
+    text-align: center;
+  }
+  .hubungikamiKet{
+    text-align: center;
+  }
+  .strukturLead{
+    flex-direction: column;
+    gap: 0px
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .listmenuTopbar{
+    display: none
+  }
+  .appearMobile{
+    display: flex
+  }
+}
